@@ -59,7 +59,7 @@ if (!$targetDrive)
 	$targetDrive = Read-Host -Prompt 'Please input the target drive path (e.g. F:\)'
 }
 
-Write-Host "`nYou have choosen $sourceDrive as the source drive and $targetDrive as the target drive."
+Write-Host "`nYou have chosen $sourceDrive as the source drive and $targetDrive as the target drive."
 
 if (!$bypassUserConfirmation)
 {
